@@ -1,4 +1,5 @@
-r"""Zone Kit editor script: build the EnglishZoneRedux override assets from work/plan.json.
+r"""Zone Kit editor script: build the English Zone Redux override assets from work/plan.json.
+All content is from rbwadle's English Zone (https://www.nexusmods.com/stalker2heartofchornobyl/mods/1559).
 
 Runs headless (editor closed) or in the live editor via ue_exec.py. For each planned asset it duplicates the
 game asset to /<DEST>/<same path> (the Zone Kit override location), then

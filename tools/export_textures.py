@@ -1,6 +1,6 @@
 r"""Export the top stored mip of every cooked UE 5.1 Texture2D in an extracted IoStore tree to DDS.
 
-The old English Zone paks are unversioned (no property tags) and we have no 5.1 mappings,
+rbwadle's English Zone paks (Nexus 1559) are unversioned (no property tags) and we have no 5.1 mappings,
 so this skips the property block: it anchors on the FTexturePlatformData pixel-format
 FString ("PF_BC7" etc.) and parses the native data from there (UE 5.1 layout).
 Handles regular mips (inline or .ubulk) and streaming virtual textures (RawGPU tiles,

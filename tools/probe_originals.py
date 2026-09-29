@@ -1,4 +1,4 @@
-# Headless: dump the kit's original assets that the old English Zone overrode (textures, meshes, materials)
+# Headless: dump the kit's original assets that rbwadle's English Zone (Nexus 1559) overrode (textures, meshes, materials)
 # plus the Python mesh-description API surface. Output JSON to work/originals.json.
 import unreal, json, os
 ROOT = r"C:/Users/noahs/OneDrive/Documents/GitHub/stalker2-english-zone-redux/work"

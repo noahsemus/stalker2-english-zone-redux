@@ -1,4 +1,4 @@
-r"""Resolve what each package of the old English Zone container imports (package names).
+r"""Resolve what each package of rbwadle's English Zone (Nexus 1559) container imports (package names).
 
     python mod_imports.py <mod .ucas> <container header offset> <size> <extracted root> <package_ids.json> <out.json>
 Writes {"/Game/...": {"imports": [...names], "import_map": [...], "names": [...]}} for every package.

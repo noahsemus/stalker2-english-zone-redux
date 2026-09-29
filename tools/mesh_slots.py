@@ -1,4 +1,4 @@
-r"""Recover the old English Zone meshes' material slots (StaticMaterials) without property mappings.
+r"""Recover rbwadle's English Zone (Nexus 1559) meshes' material slots (StaticMaterials) without property mappings.
 
 Unversioned FStaticMaterial elements serialize MaterialInterface (FPackageIndex, omitted when null),
 MaterialSlotName and ImportedMaterialSlotName (FName = name index + number). We scan the start of the

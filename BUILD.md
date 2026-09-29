@@ -1,6 +1,8 @@
 # English Zone Redux — how it is built
 
-Port of "English Zone" (Nexus 1559, v1.10, Oct 2025, author inactive) to the current game (2.0, UE 5.5.4).
+Port of rbwadle's [English Zone](https://www.nexusmods.com/stalker2heartofchornobyl/mods/1559) (v1.10,
+Oct 2025) to the current game (2.0, UE 5.5.4). All translated content is rbwadle's; this document only
+covers how it is carried over. Input: the original mod's paks, downloaded from its Nexus page.
 The original was cooked for the 1.x game (UE 5.1, IoStore TOC v5); the current game only loads v8
 containers, so the mod silently stopped working. Nothing is re-authored here: every translated
 texture, sign mesh and material change is decoded from the old paks and rebuilt in the Zone Kit.
