@@ -1,0 +1,4 @@
+work/
+tools/bcdec/target/
+__pycache__/
+*.pyc
